@@ -1,0 +1,27 @@
+{
+  "Test": {
+    //"BaseUrl": "http://localhost:5034/",
+    "BaseUrl": "http://host.docker.internal:5034",
+
+    "IdentityAPI": "http://localhost:60001",
+
+    "TalentAPI": "http://localhost:60002",
+
+    "ReportPath": "Reports\\",
+    "ScreenshotPath": "Reports\\Screenshots\\"
+  },
+  "Driver": {
+    "WebDriverType": "Remote",
+    "RemoteWebDriverHub": "http://localhost:4444/wd/hub",
+    "SauceLabWebDriverHub": "https://ondemand.saucelabs.com:443/wd/hub",
+    "BrowserType": "Chrome"
+  },
+  "Chrome": {
+    "PlatForm": "Windows 10",
+    "BrowserVersion": "latest"
+  },
+  "Firefox": {
+    "PlatForm": "Windows 10",
+    "BrowserVersion": "latest"
+  }
+}
